@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Dầu gội thảo dược dưỡng sinh",
+    "detail": "Dầu gội thảo dược của Nature là lựa chọn hoàn hảo để nuôi dưỡng và chăm sóc tóc một cách tự nhiên và hiệu quả. Sản phẩm này làm sạch nhẹ dịu, không chứa sulfate, giúp bảo vệ da đầu khỏi khô và kích ứng, đồng thời giảm tình trạng tăng tiết dầu nhờn, ngăn ngừa tóc bết rít. Với các thành phần dưỡng chất thiên nhiên như rễ cây hà thủ ô và bạch chỉ, dầu gội không chỉ giúp cải thiện tình trạng đau đầu, rụng tóc, mà còn làm tăng độ dày, óng mượt và bồng bềnh cho tóc, giúp mái tóc luôn khỏe mạnh, mềm mại và đầy sức sống. Sử dụng thường xuyên, mái tóc của bạn sẽ trở nên suôn mượt, chắc khỏe và tỏa sáng tự nhiên.",
+    "thumbnail": "./Content/images/service_thumb.jpg",
+    "price": "568.000"
+  },
+  {
+    "name": "Dầu xả thảo dược dưỡng sinh",
+    "detail": "Dầu xả thảo dược của Nature là giải pháp hoàn hảo để phục hồi tóc hư tổn từ bên trong, mang lại mái tóc khỏe mạnh và mềm mượt. Sản phẩm không chứa silicone, giúp làm mượt tự nhiên mà không gây tích tụ hay làm tóc bết dính. Với thành phần chính là chiết xuất lô hội và tinh dầu, dầu xả cung cấp độ ẩm và dưỡng chất sâu, giúp ngăn ngừa tóc chẻ ngọn, phục hồi tóc hư tổn và làm tóc suôn mượt từ gốc đến ngọn. Đồng thời, sản phẩm còn có tác dụng bảo vệ tóc trước tác động xấu từ môi trường, như tia UV và nhiệt độ cao, giúp mái tóc luôn khỏe mạnh, bóng mượt và bền đẹp.",
+    "thumbnail": "./Content/images/service_thumb.jpg",
+    "price": "568.000"
+  },
+  {
+    "name": "Cao dán ngải cứu",
+    "detail": "Cao Dán Ngải Cứu với thành phần chính từ ngải cứu và các thảo dược thiên nhiên quý giúp giảm đau nhanh chóng và tiêu trừ điểm đau hiệu quả, đặc biệt là đối với các cơn đau lưng, vai gáy, khớp gối và lưng eo. Sản phẩm được chiết xuất từ các dược liệu như ngải cứu, thấu cốt thảo, gừng, tam thất và nhiều thảo dược khác, giúp kháng viêm, thư giãn cơ bắp, giảm sự căng thẳng và mệt mỏi. Đồng thời, cao dán còn giúp cải thiện tuần hoàn máu, mang lại sự thoải mái và dễ chịu cho cơ thể. Đây là giải pháp hiệu quả, an toàn để giúp bạn giảm đau và phục hồi nhanh chóng sau các cơn đau nhức, giúp cơ thể linh hoạt và khỏe mạnh hơn.",
+    "thumbnail": "./Content/images/service_thumb.jpg",
+    "price": "100.000"
+  },
+  {
+    "name": "Dầu mộc giảm đau bài hàn",
+    "detail": "Dầu Mộc là liệu pháp hiệu quả giúp giảm nhanh các chứng đau nhức và viêm do các vấn đề xương khớp. Với thành phần thảo dược quý như ngưu đại lực, xuyên khung, đương quy, gừng và hương nhu, dầu Mộc giúp giảm đau viêm xương, đau cơ, khớp, và tê buốt tay chân. Dầu cũng hỗ trợ làm giảm nhanh các cơn đau đầu, đau vai, mỏi cổ, và đau lưng, mang lại cảm giác thoải mái ngay lập tức. Đặc biệt, dầu Mộc còn có tác dụng giảm đau do bong gân, chấn thương, rất hữu ích cho những người vận động nhiều. Không chỉ vậy, sản phẩm còn giúp làm dịu ngứa da và nổi mẩn đỏ do côn trùng cắn, mang lại làn da khỏe mạnh và dễ chịu.",
+    "thumbnail": "./Content/images/service_thumb.jpg",
+    "price": "538.000"
+  },
+  {
+    "name": "Thủ kỳ hương",
+    "detail": "Tinh Chất Thủ Kỳ Hương mang đến những lợi ích tuyệt vời cho mái tóc của bạn. Sau chỉ 6 tuần sử dụng đều đặn, bạn sẽ thấy giảm rụng tóc rõ rệt. Tinh chất giúp chân tóc mọc dày và khỏe mạnh hơn, đồng thời kích thích sự mọc tóc mới, tạo độ dày tự nhiên cho mái tóc với sự xuất hiện của nhiều tóc con. Với thành phần chiết xuất từ hương nhu, bạc hà, cỏ mần trầu và oải hương, những thảo dược quý giá này giúp nuôi dưỡng chân tóc, kích thích mọc tóc mới, đồng thời ngăn ngừa rụng tóc hiệu quả, giúp mái tóc luôn khỏe mạnh, dày dặn và bóng mượt.",
+    "thumbnail": "./Content/images/service_thumb.jpg",
+    "price": "538.000"
+  },
+  {
+    "name": "Gối điện ngải cứu",
+    "detail": "Gối Ngải Cứu là liệu pháp tuyệt vời giúp thư giãn cơ thể, giảm đau mỏi và cải thiện lưu thông máu. Với tác dụng đặc biệt, gối ngải cứu rất hiệu quả đối với những người bị đau vai gáy, cột sống hay nhức mỏi do lạnh. Sự kết hợp của ngải cứu và các thảo dược tự nhiên giúp làm dịu các cơn đau, giảm căng cơ và mang lại cảm giác dễ chịu, thư giãn tức thì. Sau khi sử dụng, bạn sẽ cảm thấy cơ thể nhẹ nhàng, thoải mái hơn, đồng thời giúp phục hồi năng lượng và giảm thiểu các triệu chứng đau nhức.",
+    "thumbnail": "./Content/images/service_thumb.jpg",
+    "price": "150.000"
+  },
+  {
+    "name": "Thảm điện ngải cứu",
+    "detail": "Thảm Ngải Cứu mang lại công dụng tuyệt vời trong việc chăm sóc sức khỏe hàng ngày. Thảm giúp giảm đau nhức cơ thể, giảm cảm cúm trong thời điểm giao mùa, đồng thời tăng cường tuần hoàn máu và hỗ trợ thư giãn tinh thần, giảm stress hiệu quả. Sử dụng thảm ngải cứu giúp cải thiện giấc ngủ, mang lại cảm giác thư thái và dễ chịu. Được làm từ ngải cứu tự nhiên, thảm ngải cứu không chỉ an toàn mà còn dễ sử dụng, giúp bạn và gia đình chăm sóc sức khỏe một cách hiệu quả. Đặc biệt, thảm ngải cứu phù hợp sử dụng cho cả người lớn và người cao tuổi, giúp bảo vệ sức khỏe và mang lại sự thoải mái cho mọi lứa tuổi.",
+    "thumbnail": "./Content/images/service_thumb.jpg",
+    "price": "400.000"
+  },
+  {
+    "name": "Muối thảo dược ngâm chân",
+    "detail": "Muối Ngâm Chân Thảo Dược là giải pháp tuyệt vời để thư giãn đôi chân mệt mỏi sau một ngày dài. Sản phẩm giúp đào thải độc tố ra khỏi cơ thể, giảm căng thẳng và tăng cường tuần hoàn máu, mang lại cảm giác thư thái, dễ chịu và sảng khoái ngay lập tức. Với các thành phần thảo dược tự nhiên, muối ngâm chân không chỉ giúp làm dịu các cơn đau nhức chân mà còn hỗ trợ phục hồi sức khỏe tổng thể, giúp bạn cảm thấy thư giãn và năng lượng hơn sau mỗi lần ngâm chân. Đây là liệu pháp lý tưởng cho những ai muốn chăm sóc sức khỏe đôi chân và thư giãn tinh thần.",
+    "thumbnail": "./Content/images/service_thumb.jpg",
+    "price": "60.000"
+  }
+]

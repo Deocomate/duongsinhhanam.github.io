@@ -1,0 +1,99 @@
+<form id="orderForm" style="min-width: 50%;">
+    
+    <input name="__RequestVerificationToken" type="hidden" value="QHwcwLCrxCXQrSA5rE4F7Ynmz5gnQjNH2PDvgDFsxh_2i3cZFZkf5OYVpDscqQOH-X9c9xOfVDQgKeg_F15yMwXTvzsPfGhuvTgl8QE3L7w1" />
+    <input type="hidden" name="Order.ProductPrice" value=" " />
+
+    <input type="hidden" name="Order.ProductId" value="9" />
+    <input type="hidden" name="Order.ProductName" value="VB Collagen 5 Ống - Collagen Dạng Uống Hấp Thu Tối Đa" />
+    <input type="hidden" name="Order.ProductUrl" value="vb-collagen-5-ong-collagen-dang-uong-hap-thu-toi-da" />
+    <input type="hidden" name="Order.ProductImg" value="2024/05/19/nuoc-uong-vital-beautie-collagen-hop-5-ong-101.html" />
+    <div class="info-product">
+        <p>Sản phẩm <strong>VB Collagen 5 Ống - Collagen Dạng Uống Hấp Thu Tối Đa</strong><br /></p>
+    </div>
+    <hr />
+    <strong class="title--child">Thông tin của bạn</strong>
+    <div class="wrapper mt-3">
+        <fieldset class="formRow">
+            <div class="formRow--item">
+                <label for="firstname" class="formRow--input-wrapper js-inputWrapper">
+                    <input class="formRow--input js-input" data-val="true" data-val-length="Tối đa 50 ký tự" data-val-length-max="50" data-val-required="Hãy nhập họ tên" id="Order_CustomerInfo_FullName" name="Order.CustomerInfo.FullName" placeholder="" type="text" value="" />
+                    <span class="field-validation-valid" data-valmsg-for="Order.CustomerInfo.FullName" data-valmsg-replace="true"></span>
+                    <span class="placeholder">Họ và tên</span>
+                </label>
+                <label for="firstname" class="formRow--input-wrapper js-inputWrapper">
+                    <input class="formRow--input js-input" data-val="true" data-val-length="Tối đa 200 ký tự" data-val-length-max="200" data-val-required="Hãy nhập địa chỉ" id="Order_CustomerInfo_Address" name="Order.CustomerInfo.Address" placeholder="" type="text" value="" />
+                    <span class="field-validation-valid" data-valmsg-for="Order.CustomerInfo.Address" data-valmsg-replace="true"></span>
+                    <span class="placeholder">Địa chỉ</span>
+                </label>
+                <label for="firstname" class="formRow--input-wrapper js-inputWrapper">
+                    <input class="formRow--input js-input" data-val="true" data-val-length="Tối đa 11 ký tự" data-val-length-max="11" data-val-regex="Số điện thoại không đúng !!!." data-val-regex-pattern="^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$" data-val-required="Vui lòng nhập số điện thoại" id="Order_CustomerInfo_Mobile" name="Order.CustomerInfo.Mobile" placeholder="" type="text" value="" />
+                    <span class="field-validation-valid" data-valmsg-for="Order.CustomerInfo.Mobile" data-valmsg-replace="true"></span>
+                    <span class="placeholder">Số điện thoại</span>
+                </label>
+                <label for="firstname" class="formRow--input-wrapper js-inputWrapper">
+                    <input class="formRow--input js-input" data-val="true" data-val-email="Email không hợp lệ" data-val-length="Tối đa 50 ký tự" data-val-length-max="50" id="Order_CustomerInfo_Email" name="Order.CustomerInfo.Email" placeholder="" type="text" value="" />
+                    <span class="field-validation-valid" data-valmsg-for="Order.CustomerInfo.Email" data-valmsg-replace="true"></span>
+                    <span class="placeholder">Email của bạn</span>
+                </label>
+                <label for="firstname" class="formRow--input-wrapper js-inputWrapper">
+                    <input class="formRow--input js-input" data-val="true" data-val-length="Tối đa 200 ký tự" data-val-length-max="200" id="Order_CustomerInfo_Body" name="Order.CustomerInfo.Body" placeholder="" type="text" value="" />
+                    <span class="field-validation-valid" data-valmsg-for="Order.CustomerInfo.Body" data-valmsg-replace="true"></span>
+                    <span class="placeholder">Ghi chú, lời nhắn</span>
+                </label>
+            </div>
+        </fieldset>
+    </div>
+
+    <div class="form-group form-row float-right">
+        <button type="submit" class="btn btn-style btn-style--cart">
+            <i class="fa fa-check"></i>
+            GỬI YÊU CẦU
+        </button>
+    </div>
+    <script src="../bundles/jqueryvalf0e0.js?v=ewwbEwxCzNIunbw9c2Y5X5_ldbOkIBIkUo-LvchX7I81"></script>
+
+    <script>
+
+
+    var n = $(".js-inputWrapper");
+    n.length && n.each(function () {
+        var n = $(this), t = n.find(".formRow--input"), i = t.attr("placeholder"), r;
+        t.after('<span class="placeholder">' + i + "<\/span>");
+        t.attr("placeholder", "");
+        r = n.find(".placeholder");
+        t.val().length ? n.addClass("active") : n.removeClass("active");
+        t.on("focusout",
+            function () {
+                t.val().length ? n.addClass("active") : n.removeClass("active");
+            }).on("focus",
+                function () {
+                    n.addClass("active");
+                });
+    });
+
+    $("#orderForm").on("submit", function (e) {
+        e.preventDefault();
+
+        if ($(this).valid()) {
+            $.post("/dat-hang", $(this).serialize(), function (data) {
+                if (data.status) {
+                    $.toast({
+                        heading: 'Liên hệ thành công',
+                        text: data.msg,
+                        icon: 'success'
+                    })
+                    $("#orderForm").trigger("reset");
+                } else {
+                    $.toast({
+                        heading: 'Liên hệ không thành công',
+                        text: data.msg,
+                        icon: 'error'
+                    })
+                }
+            });
+        }
+    });
+
+    </script>
+</form>
+
